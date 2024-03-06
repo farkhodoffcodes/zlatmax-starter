@@ -1,8 +1,21 @@
-.container {
-    padding: 0 50px;
-}
-.nav-bar {
-    background-color: $background-color;
+body {
+    color: #FFFFFF;
+    font-family: Montserrat;
+  }
+  a {
+    text-decoration: none;
+  }
+  input {
+    outline: none;
+    border: none;
+  }
+  .container {
+    padding: 0 30px;
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+  .nav-bar {
+    background-color: #141414;
     .nav-bar-wrapper {
         display: flex;
         align-items: center;
@@ -12,12 +25,11 @@
             ul {
                 display: flex;
                 align-items: center;
-                gap: 20px;
+                gap: 40px;
                 li {
                     list-style: none;
                     a {
-                        text-decoration: none;
-                        color: $text-color;
+                        color: #FFFFFF;
                         font-size: 16px;
                         font-weight: 500;
                         line-height: 20px;
@@ -25,11 +37,20 @@
                 }
             }
         }
+        .wrapper-account {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+            a {
+              color: #FFFFFF;
+            }
+        }
     }
-}
-.header{
+  }
+  .header{
     background-color: #ECF1F2;
     .header-inner {
+      padding: 26px 0;
         display:flex;
         align-items: center;
         justify-content: space-between;
@@ -37,11 +58,123 @@
             .logo-text {
                 display: flex;
                 align-items: center;
+                span {
+                  color: #1F1C21;
+                }
             }
         }
-        .search {
-            border: 1px solid grey;
-            padding: 17px 0;
+        .searcher-input {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          width: 300px;
+          padding: 10px 0 10px 10px;
+          border: 1px solid #04040480;
+          background: #07070708;
+          border-radius: 3px;
+          .search {
+            background-color: transparent;
+          }
+        }
+        .inner-box-options {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+            p {
+              color: #000000;
+  
+            }
+          .options-loc {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p {
+              font-size: 18px;
+              font-weight: 600;
+              line-height: 22px;
+              letter-spacing: 0em;
+            }
+          }
+          .options-call {
+            display: flex;
+            .call-text {
+              p {
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 22px;
+                letter-spacing: 0em;
+              }
+              .number-orange {
+                font-size: 18px;
+                font-weight: 700;
+                color: #E8AA31;
+              }
+            }
+          }
+          .purchase {
+            display: flex;
+            align-items: center;
+            /* justify-content: space-between; */
+            gap: 8px;
+            .purchase-icons {
+              display: flex;
+              align-items: center;
+              gap: 15px;
+            }
+            .purchase-order {
+              p {
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 20px;
+                letter-spacing: 0em;
+              }
+              .sum-orange {
+                color: #E8AA31;
+              }
+            }
+          }
         }
     }
-}
+  }
+  .nav-chapter {
+    background-color: #000000;
+    padding: 26px 0;
+    .nav-chapter-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .chapter-category {
+      .chapter-description {
+        padding: 26px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p {
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 22px;
+          letter-spacing: 0em;
+  
+        }
+      }
+    }
+    .chapter-knifes {
+      display: flex;
+      justify-content: space-between;
+      .knifes-block {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+    }
+    .chapter-view-all {
+      padding-top: 26px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p {
+        color: #E8AA31;
+      }
+    }
+  }
