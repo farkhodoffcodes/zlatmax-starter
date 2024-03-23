@@ -2,8 +2,373 @@
     "category": [
         {
             "id": 1,
-            "name": "Home",
-            "price": 100
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26",
+            "button": {
+                "text": "В корзину",
+                "icon": "https://picsum.photos/26/26"
+            }            
+        },
+        {
+            "id": 2,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26",
+            "button": {
+                "text": "В корзину",
+                "icon": "https://picsum.photos/26/26"
+            }            
+        },
+        {
+            "id": 3,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26",
+            "button": {
+                "text": "В корзину",
+                "icon": "https://picsum.photos/26/26"
+            }            
+        },
+        {
+            "id": 4,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26",
+            "button": {
+                "text": "В корзину",
+                "icon": "https://picsum.photos/26/26"
+            }            
+        },
+        {
+            "id": 5,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26",
+            "button": {
+                "text": "В корзину",
+                "icon": "https://picsum.photos/26/26"
+            }            
+        },
+        {
+            "id": 6,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26",
+            "button": {
+                "text": "В корзину",
+                "icon": "https://picsum.photos/26/26"
+            }            
+        },
+        {
+            "id": 7,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26",
+            "button": {
+                "text": "В корзину",
+                "icon": "https://picsum.photos/26/26"
+            }            
+        },
+        {
+            "id": 8,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26",
+            "button": {
+                "text": "В корзину",
+                "icon": "https://picsum.photos/26/26"
+            }            
+        },
+        {
+            "id": 9,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26",
+            "button": {
+                "text": "В корзину",
+                "icon": "https://picsum.photos/26/26"
+            }            
+        },
+        {
+            "id": 10,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26",
+            "button": {
+                "text": "В корзину",
+                "icon": "https://picsum.photos/26/26"
+            }            
+        }
+       
+    ],
+    "cardMin": [
+        {
+            "id": 1,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26",
+            "button": {
+                "text": "В корзину",
+                "icon": "https://picsum.photos/26/26"
+            }            
+        },
+        {
+            "id": 2,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26",
+            "button": {
+                "text": "В корзину",
+                "icon": "https://picsum.photos/26/26"
+            }            
+        },
+        {
+            "id": 3,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26",
+            "button": {
+                "text": "В корзину",
+                "icon": "https://picsum.photos/26/26"
+            }            
+        },
+        {
+            "id": 4,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26",
+            "button": {
+                "text": "В корзину",
+                "icon": "https://picsum.photos/26/26"
+            }            
+        },
+        {
+            "id": 5,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26",
+            "button": {
+                "text": "В корзину",
+                "icon": "https://picsum.photos/26/26"
+            }            
+        },
+        {
+            "id": 6,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26",
+            "button": {
+                "text": "В корзину",
+                "icon": "https://picsum.photos/26/26"
+            }            
+        },
+        {
+            "id": 7,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26",
+            "button": {
+                "text": "В корзину",
+                "icon": "https://picsum.photos/26/26"
+            }            
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26"            
+        },
+        {
+            "id": 2,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26"            
+        },
+        {
+            "id": 3,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26"            
+        },
+        {
+            "id": 4,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26"            
+        },
+        {
+            "id": 5,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26"            
+        },
+        {
+            "id": 6,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26"            
+        },
+        {
+            "id": 7,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26"            
+        },
+        {
+            "id": 8,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26"            
+        },
+        {
+            "id": 9,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26"            
+        },
+        {
+            "id": 10,
+            "image": "https://picsum.photos/200/300",
+            "title": "Нож Лиса",
+            "size": "95х18",
+            "material":"Орех, Алюминий",
+            "comment":"12 отзывов",
+            "price":"2 719 р",
+            "logo": "https://picsum.photos/26/26",
+            "saved":"https://picsum.photos/26/26"            
         }
     ]
 }
