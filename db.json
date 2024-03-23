@@ -1,0 +1,9 @@
+{
+    "category": [
+        {
+            "id": 1,
+            "name": "Home",
+            "price": 100
+        }
+    ]
+}
