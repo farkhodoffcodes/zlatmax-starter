@@ -6,6 +6,89 @@
   box-sizing: border-box;
 }
 
+.section-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-button-hero-left {
+  width: 200px;
+  margin-top: 80px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid #E8AA31;
+  margin-left: 30px;
+  background: #E8AA31;
+  color: white;
+}
+
+.btn-button-hero-left:hover {
+  box-shadow: 0px 4px 20px 0px rgba(232, 170, 49, 0.431372549);
+}
+
+.footer-top {
+  background-image: url("/images/footer.png");
+  padding: 60px 30px;
+}
+.footer-top h2 {
+  font-size: 2em;
+  color: rgb(232, 170, 49);
+  letter-spacing: 5%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.footer-top p {
+  font-size: 1em;
+  color: white;
+  letter-spacing: 3%;
+}
+
+.footer-main {
+  background-color: rgb(20, 20, 20);
+}
+
+.footer-information {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+}
+.footer-information ol li h3 {
+  color: white;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 23px;
+}
+.footer-information ol li p {
+  color: white;
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.footer-contact {
+  display: flex;
+  align-items: center;
+}
+.footer-contact ol li h3 {
+  color: white;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 23px;
+}
+.footer-contact ol li p {
+  color: white;
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: start;
+}
+
 body {
   color: #FFFFFF;
   font-family: Montserrat;
@@ -181,128 +264,754 @@ input {
   color: #E8AA31;
 }
 
-.topNavText:hover {
-  color: #fff !important;
-}
-
-.parent {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 2fr 2.5fr repeat(3, 1.5fr) 2fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-}
-
-.parent2 {
-  width: 100% !important;
-  display: grid !important;
-  grid-template-columns: repeat(5, 2fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-}
-
-.parent3 {
-  margin-top: 10%;
-  width: 100% !important;
-  display: grid !important;
-  grid-template-columns: repeat(4, 1fr);
-  justify-items: center;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-}
-
-.location {
-  width: 110%;
-}
-
-.like {
-  cursor: pointer;
-  width: 15%;
-  height: 60%;
-}
-
-.korText {
-  font-size: 12px;
-}
-
-.nav-link {
-  color: #fff !important;
-  transition: 0.3s !important;
-  font-size: 13px !important;
-  font-weight: 700 !important;
-}
-
-/* Apply white color to nav links */
-.nav-link:hover {
-  color: #ffd900 !important;
-}
-
-.nav-link:focus {
-  color: #ffd900 !important;
-}
-
-.page-1 {
-  background-image: url("../assets/page1/pag-1Back.png");
-  background-size: cover;
-}
-
-.dark {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.722);
-}
-
-.page-1Main {
-  width: 100%;
-  background-image: url("../assets/page1/pichoqlar.png");
-  background-size: cover;
-  background-position: top;
-}
-
-.mainTitle2 {
-  font-weight: 400;
-}
-
-.mainTitle3 {
-  width: 50% !important;
-}
-
-.page-1Button {
-  font-family: Roboto, sans-serif;
-  font-weight: 0;
-  font-size: 14px;
-  color: #fff;
-  background-color: #dec527;
-  padding: 10px 30px;
-  border: solid #E8AA31 2px;
-  box-shadow: 0px 0px 51px 29px rgba(232, 170, 49, 0.2);
-  border-radius: 50px;
-  transition: 1000ms;
-  transform: translateY(0);
+.hero {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  cursor: pointer;
-}
-
-.page-1Button:hover {
-  transition: 1000ms;
-  padding: 10px 50px;
-  transform: translateY(0px);
-  background-color: #fff;
-  color: #E8AA31;
-  border: solid 2px #E8AA31;
-}
-
-.page-1Child {
-  display: grid;
-  justify-items: center;
-  transition: 0.5s;
-  cursor: pointer;
-}
-
-.page-1Child:hover {
-  color: #E8AA31;
   position: relative;
-  top: -7%;
+  justify-content: center;
+}
+.hero .container-hero {
+  position: absolute;
+  background-color: black;
+  justify-content: center;
+  opacity: 90%;
+  width: 1300px;
+  height: 700px;
+}
+.hero .container-hero .hero-pichoq {
+  width: 350px;
+  height: 370px;
+  margin-top: 60px;
+  margin-left: 700px;
+}
+.hero .container-hero .hero-boll {
+  width: 300px;
+  height: 350px;
+  margin-left: 900px;
+  margin-top: -340px;
+  background-image: url(/images/Group\ 30\ \(2\).png);
+  background-repeat: no-repeat;
+}
+.hero .container-hero .hero-pl {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+.hero .container-hero h1 {
+  color: white;
+  margin-left: 30px;
+  font-weight: 800;
+  font-size: 28px;
+  margin-top: -370px;
+}
+.hero .container-hero h3 {
+  color: white;
+  font-weight: 500;
+  font-size: 27px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.hero .container-hero .hero-text-left {
+  color: white;
+  max-width: 600px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.hero .container-hero .hero-img-slide {
+  width: 200px;
+  height: 50px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.hero .container-hero .hero-footer-icons {
+  width: 200px;
+  height: 100px;
+  margin-left: 990px;
+  margin-top: 100px;
+}
+.hero .container-hero .img-hero-left {
+  margin-top: -100px;
+}
+.hero .container-hero .hero-footer-icon {
+  width: 200px;
+  height: 100px;
+  margin-left: 670px;
+}
+.hero .container-hero .img-hero-center {
+  margin-top: -100px;
+}
+.hero .container-hero .img-hero-center .hero-icon {
+  width: 200px;
+  height: 100px;
+  margin-left: 340px;
+}
+.hero .container-hero .img-hero-left {
+  margin-top: -100px;
+}
+.hero .container-hero .img-hero-left .hero-icons-left {
+  width: 200px;
+  height: 100px;
+  margin-left: 30px;
+}
+
+.card-right {
+  width: 340px;
+  height: 180px;
+  box-shadow: 10px 10px 10px 10px black;
+  background-color: white;
+  margin-top: 760px;
+  margin-left: 20px;
+}
+.card-right .card-img-right {
+  width: 160px;
+  height: 120px;
+  margin-left: 180px;
+  margin-top: 60px;
+}
+.card-right .text-card-right {
+  margin-top: -9em;
+  margin-left: 1em;
+  font-weight: 700;
+  font-size: 19px;
+  color: black;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-right .text-card-right::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.5s;
+}
+.card-right .text-card-right:hover::before {
+  width: 30%;
+}
+.card-right .text-right-razdel {
+  color: black;
+  margin-top: 1.7em;
+  margin-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-right .text-right-razdel::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.3s;
+}
+.card-right .text-right-razdel:hover::before {
+  width: 10%;
+}
+.card-right .text-right-turist {
+  color: black;
+  margin-top: 0.7em;
+  margin-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-right .text-right-turist::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.3s;
+}
+.card-right .text-right-turist:hover::before {
+  width: 10%;
+}
+.card-right .text-right-oxotnik {
+  color: black;
+  margin-top: 0.7em;
+  margin-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-right .text-right-oxotnik::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.3s;
+}
+.card-right .text-right-oxotnik:hover::before {
+  width: 10%;
+}
+
+.card-right-top {
+  width: 340px;
+  height: 180px;
+  box-shadow: 8px 8px 8px 8px black;
+  margin-top: 999px;
+  margin-left: -335px;
+}
+.card-right-top .img-right-top {
+  width: 160px;
+  height: 170px;
+  margin-left: 11.3em;
+  margin-top: 0.6em;
+}
+.card-right-top .text-right-top {
+  margin-top: -9em;
+  margin-left: 1em;
+  font-weight: 700;
+  font-size: 19px;
+  color: black;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-right-top .text-right-top::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.5s;
+}
+.card-right-top .text-right-top:hover::before {
+  width: 30%;
+}
+.card-right-top .text-right-top-razdel {
+  color: black;
+  margin-top: 1.7em;
+  margin-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-right-top .text-right-top-razdel::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.3s;
+}
+.card-right-top .text-right-top-razdel:hover::before {
+  width: 10%;
+}
+.card-right-top .text-right-top-turist {
+  color: black;
+  margin-top: 0.7em;
+  margin-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-right-top .text-right-top-turist::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.3s;
+}
+.card-right-top .text-right-top-turist:hover::before {
+  width: 10%;
+}
+.card-right-top .text-right-top-oxotnik {
+  color: black;
+  margin-top: 0.7em;
+  margin-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-right-top .text-right-top-oxotnik::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.3s;
+}
+.card-right-top .text-right-top-oxotnik:hover::before {
+  width: 10%;
+}
+
+.card-center-top {
+  width: 340px;
+  height: 180px;
+  box-shadow: 8px 8px 8px 8px black;
+  margin-left: -710px;
+  margin-top: 999px;
+}
+.card-center-top .img-center-top {
+  width: 180px;
+  height: 140px;
+  margin-left: 10em;
+  margin-top: 2.5em;
+}
+.card-center-top .text-center-top {
+  margin-top: -9em;
+  margin-left: 1em;
+  font-weight: 700;
+  font-size: 19px;
+  color: black;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-center-top .text-center-top::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.5s;
+}
+.card-center-top .text-center-top:hover::before {
+  width: 30%;
+}
+.card-center-top .text-center-top-razdel {
+  color: black;
+  margin-top: 1.7em;
+  margin-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-center-top .text-center-top-razdel::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.3s;
+}
+.card-center-top .text-center-top-razdel:hover::before {
+  width: 10%;
+}
+.card-center-top .text-center-top-turist {
+  color: black;
+  margin-top: 0.7em;
+  margin-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-center-top .text-center-top-turist::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.3s;
+}
+.card-center-top .text-center-top-turist:hover::before {
+  width: 10%;
+}
+.card-center-top .text-center-top-oxotnik {
+  color: black;
+  margin-top: 0.7em;
+  margin-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-center-top .text-center-top-oxotnik::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.3s;
+}
+.card-center-top .text-center-top-oxotnik:hover::before {
+  width: 10%;
+}
+
+.card-center {
+  width: 340px;
+  height: 180px;
+  box-shadow: 8px 8px 8px 8px black;
+  margin-top: 760px;
+  margin-left: -345px;
+}
+.card-center .img-center {
+  width: 170px;
+  height: 160px;
+  margin-top: 1.3em;
+  margin-left: 11em;
+}
+.card-center .text-center {
+  margin-top: -9em;
+  margin-left: 1em;
+  font-weight: 700;
+  font-size: 19px;
+  color: black;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-center .text-center::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.5s;
+}
+.card-center .text-center:hover::before {
+  width: 30%;
+}
+.card-center .text-center-razdel {
+  color: black;
+  margin-top: 1.7em;
+  margin-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-center .text-center-razdel::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.3s;
+}
+.card-center .text-center-razdel:hover::before {
+  width: 10%;
+}
+.card-center .text-center-turist {
+  color: black;
+  margin-top: 0.7em;
+  margin-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-center .text-center-turist::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.3s;
+}
+.card-center .text-center-turist:hover::before {
+  width: 10%;
+}
+.card-center .text-center-oxotnik {
+  color: black;
+  margin-top: 0.7em;
+  margin-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-center .text-center-oxotnik::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.3s;
+}
+.card-center .text-center-oxotnik:hover::before {
+  width: 10%;
+}
+
+.card-left-top {
+  width: 340px;
+  height: 180px;
+  box-shadow: 8px 8px 8px 8px black;
+  margin-left: -710px;
+  margin-top: 999px;
+}
+.card-left-top .img-left-top {
+  max-width: 130px;
+  height: 160px;
+  margin-left: 13.3em;
+  margin-top: 1.3em;
+}
+.card-left-top .text-left-top {
+  margin-top: -9em;
+  margin-left: 1em;
+  font-weight: 700;
+  font-size: 19px;
+  color: black;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-left-top .text-left-top::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.5s;
+}
+.card-left-top .text-left-top:hover::before {
+  width: 30%;
+}
+.card-left-top .text-left-top-razdel {
+  color: black;
+  margin-top: 1.7em;
+  margin-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-left-top .text-left-top-razdel::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.3s;
+}
+.card-left-top .text-left-top-razdel:hover::before {
+  width: 10%;
+}
+.card-left-top .text-left-top-turist {
+  color: black;
+  margin-top: 0.7em;
+  margin-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-left-top .text-left-top-turist::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.3s;
+}
+.card-left-top .text-left-top-turist:hover::before {
+  width: 10%;
+}
+.card-left-top .text-left-top-oxotnik {
+  color: black;
+  margin-top: 0.7em;
+  margin-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-left-top .text-left-top-oxotnik::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.3s;
+}
+.card-left-top .text-left-top-oxotnik:hover::before {
+  width: 10%;
+}
+
+.card-left {
+  width: 340px;
+  height: 180px;
+  box-shadow: 8px 8px 8px 8px black;
+  margin-top: 760px;
+  margin-left: -340px;
+}
+.card-left .img-left {
+  width: 160px;
+  height: 170px;
+  margin-left: 12em;
+  margin-top: 0.6em;
+}
+.card-left .text-left {
+  margin-top: -9em;
+  margin-left: 1em;
+  font-weight: 700;
+  font-size: 19px;
+  color: black;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-left .text-left::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.5s;
+}
+.card-left .text-left:hover::before {
+  width: 30%;
+}
+.card-left .text-left-razdel {
+  color: black;
+  margin-top: 1.7em;
+  margin-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-left .text-left-razdel::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.3s;
+}
+.card-left .text-left-razdel:hover::before {
+  width: 10%;
+}
+.card-left .text-left-turist {
+  color: black;
+  margin-top: 0.7em;
+  margin-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-left .text-left-turist::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.3s;
+}
+.card-left .text-left-turist:hover::before {
+  width: 10%;
+}
+.card-left .text-left-oxotnik {
+  color: black;
+  margin-top: 0.7em;
+  margin-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  position: relative;
+  cursor: pointer;
+}
+.card-left .text-left-oxotnik::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: #E8AA31;
+  margin-top: 0.5em;
+  transition: all ease 0.3s;
+}
+.card-left .text-left-oxotnik:hover::before {
+  width: 10%;
 }/*# sourceMappingURL=main.css.map */
